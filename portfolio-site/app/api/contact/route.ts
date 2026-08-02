@@ -30,14 +30,15 @@ export async function POST(req: Request) {
 
     const { name, email, subject, message } = parsed.data;
 
-    // Persist message to /data/messages.json
     const messagesPath = path.join(process.cwd(), "data", "messages.json");
     let messages: object[] = [];
     try {
       if (fs.existsSync(messagesPath)) {
         messages = JSON.parse(fs.readFileSync(messagesPath, "utf-8"));
       }
-    } catch { /* first time */ }
+    } catch {
+      messages = [];
+    }
 
     messages.push({
       id: crypto.randomUUID(),
@@ -49,9 +50,8 @@ export async function POST(req: Request) {
       read: false,
     });
 
-    fs.writeFileSync(messagesPath, JSON.stringify(messages, null, 2));
+    writeJsonFile("messages.json", messages);
 
-    // Log for development
     console.log(`📧 New contact from ${name} <${email}>: ${subject}`);
 
     return NextResponse.json({ success: true, message: "Message received!" });

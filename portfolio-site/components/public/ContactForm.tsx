@@ -49,14 +49,18 @@ export function ContactForm() {
         body: JSON.stringify(data),
       });
 
-      if (!res.ok) throw new Error("Failed to send");
+      const body = await res.json().catch(() => null);
+      if (!res.ok) {
+        throw new Error(body?.error ?? "Failed to send message. Please try again.");
+      }
 
       setSent(true);
       reset();
       toast.success("Message sent! I'll get back to you soon.");
       setTimeout(() => setSent(false), 5000);
-    } catch {
-      toast.error("Failed to send message. Please try again.");
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Failed to send message. Please try again.";
+      toast.error(message);
     }
   };
 
