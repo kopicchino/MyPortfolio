@@ -42,6 +42,7 @@ export function readJsonFile<T>(filename: string): T {
 export function writeJsonFile<T>(filename: string, data: T): void {
   const filePath = path.join(DATA_DIR, filename);
   try {
+    fs.mkdirSync(DATA_DIR, { recursive: true });
     fs.writeFileSync(filePath, JSON.stringify(data, null, 2), "utf-8");
   } catch (error) {
     console.error(`Error writing ${filename}:`, error);

@@ -34,5 +34,14 @@
     "message": "pwidi na 1234567890 0987654321",
     "receivedAt": "2026-08-02T13:13:21.293Z",
     "read": true
+  },
+  {
+    "id": "d984b861-1f7b-47e1-ad1d-56a7f5aa670c",
+    "name": "Test User",
+    "email": "test@example.com",
+    "subject": "Hello",
+    "message": "This is a valid test message with more than twenty characters.",
+    "receivedAt": "2026-08-02T16:36:11.112Z",
+    "read": false
   }
 ]
