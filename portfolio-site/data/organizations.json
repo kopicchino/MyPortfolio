@@ -1,0 +1,30 @@
+[
+  {
+    "name": "Google Developers Groups on Campus - Technological University of the Philippines Manila",
+    "role": "Chief Finance Officer",
+    "category": "Tech Organization",
+    "description": "",
+    "startDate": "2025-08-04",
+    "endDate": "2026-08-08",
+    "current": true,
+    "website": "",
+    "featured": true,
+    "logo": "/uploads/organizations/1785672713211-953f5662.webp",
+    "id": "3ae77733-8fab-4ae7-b036-b649c4a7267d",
+    "order": 1
+  },
+  {
+    "name": "College of Science - College Student Council Technological University of the Philippines",
+    "role": "Councilor for Internal Control",
+    "category": "College Organization",
+    "description": "",
+    "startDate": "2024-08-01",
+    "endDate": "2025-06-18",
+    "current": false,
+    "website": "",
+    "featured": true,
+    "logo": "/uploads/organizations/1785673259503-55f487c6.webp",
+    "id": "600f95fe-c029-48cb-9ed7-2b320541a00c",
+    "order": 2
+  }
+]

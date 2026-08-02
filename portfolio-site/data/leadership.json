@@ -1,0 +1,50 @@
+[
+  {
+    "title": "CLASS PRESIDENT ",
+    "organization": "AUJRC - 12 STEM 7A",
+    "startDate": "2023-08-01",
+    "endDate": "2024-06-28",
+    "current": false,
+    "description": "",
+    "responsibilities": [],
+    "achievements": [],
+    "id": "cb4b05f9-c80e-44c9-9acb-eb01325133f4",
+    "order": 1
+  },
+  {
+    "title": "CLASS VICE PRESIDENT",
+    "organization": "AUJRC - 11 STEM 7A",
+    "startDate": "2022-08-01",
+    "endDate": "2023-06-15",
+    "current": false,
+    "description": "",
+    "responsibilities": [],
+    "achievements": [],
+    "id": "5aedd11e-24ce-49c5-b07f-02908c6d93ef",
+    "order": 2
+  },
+  {
+    "title": "Chief Finance Officer ",
+    "organization": "Google Developer Groups on Campus - TUP Manila",
+    "startDate": "2025-08-04",
+    "endDate": "2026-08-08",
+    "current": true,
+    "description": "",
+    "responsibilities": [],
+    "achievements": [],
+    "id": "e26fc467-bb39-4c0b-8445-a79ac69d1add",
+    "order": 3
+  },
+  {
+    "title": "Councilor for Internal Control",
+    "organization": "College of Science - College Student Council",
+    "startDate": "2024-08-05",
+    "endDate": "2025-05-02",
+    "current": false,
+    "description": "",
+    "responsibilities": [],
+    "achievements": [],
+    "id": "0189e491-dad6-4aa0-9a45-419505d41090",
+    "order": 4
+  }
+]

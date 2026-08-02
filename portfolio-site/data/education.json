@@ -1,0 +1,135 @@
+[
+  {
+    "id": "edu-tup",
+    "school": "Technological University of the Philippines - Manila",
+    "degree": "Bachelor of Science in Information Technology",
+    "field": "Information Technology",
+    "logo": "/uploads/education/1785668200467-2655b4d5.webp",
+    "startYear": 2024,
+    "endYear": 2028,
+    "current": true,
+    "gpa": null,
+    "location": "Ayala Blvd, Ermita, Manila",
+    "description": "Currently in my 3rd year, focusing on web development, database management, software engineering principles,  Cybersecurity and modern application development. Actively participating in tech organizations and academic competitions.",
+    "awards": [
+      {
+        "title": "Dean's Lister",
+        "year": 2024
+      },
+      {
+        "title": "Dean's Lister",
+        "year": 2025
+      },
+      {
+        "title": "President's Lister",
+        "year": 2026
+      }
+    ],
+    "courses": [
+      "Web Systems & Technologies",
+      "Object-Oriented Programming",
+      "Data Structures & Algorithms",
+      "Database Management Systems",
+      "Systems Analysis & Design",
+      "Computer Networks",
+      "Information Management",
+      "Software Engineering"
+    ],
+    "activities": [
+      "TUP MANILA AWS STUDENT BUILDER GROUP MEMBER",
+      "TUP MANILA COMPASS MEMBER",
+      "TUP MANILA COLLEGE OF SCIENCE - COLLEGE STUDENT COUNCIL (COUNCILOR FOR INTERNAL CONTROL)",
+      "TUP MANILA GOOGLE DEVELOPER GROUPS ON CAMPUS (CHIEF FINANCE OFFICER)",
+      "TUP MANILA THE ALGORITHM CLUB (FOUNDER)"
+    ],
+    "projects": [
+      "Inventory Management System (Group Capstone)",
+      "Library Management Web App",
+      "Student Grade Tracker"
+    ],
+    "order": 1
+  },
+  {
+    "school": "Tañong Integrated School",
+    "degree": "Elementary",
+    "field": "",
+    "startYear": 2012,
+    "endYear": 2018,
+    "current": false,
+    "gpa": "",
+    "location": "Malabon City, Philippines",
+    "description": "",
+    "awards": [
+      {
+        "title": "RANK 5",
+        "year": 2018
+      }
+    ],
+    "courses": [],
+    "activities": [],
+    "projects": [],
+    "id": "68a40827-ed05-4dae-9f2c-90e52a428b41",
+    "order": 2,
+    "logo": "/uploads/education/1785668140839-fe6bab0b.webp"
+  },
+  {
+    "school": "Tañong Integrated School",
+    "degree": "High School",
+    "field": "",
+    "startYear": 2018,
+    "endYear": 2022,
+    "current": false,
+    "gpa": "",
+    "location": "Manila, Philippines",
+    "description": "Overall Rank 5 in Batch 2022",
+    "awards": [
+      {
+        "title": "With Honors",
+        "year": 2022
+      }
+    ],
+    "courses": [],
+    "activities": [],
+    "projects": [],
+    "id": "7e9913be-340b-4f92-900b-b7092a21e062",
+    "order": 3,
+    "logo": "/uploads/education/1785668097855-6456ae8f.webp"
+  },
+  {
+    "school": "Arellano University - Jose Rizal Campus",
+    "degree": "Senior High School",
+    "field": "Science, Technology, Engineer and Mathematics (STEM)",
+    "startYear": 2022,
+    "endYear": 2024,
+    "current": false,
+    "gpa": "99.00",
+    "location": "Malabon, Philippines",
+    "description": "Graduated With Highest Honors and Class Valedictorian of the Class of 2024",
+    "awards": [
+      {
+        "title": "WITH HIGH HONORS (GRADE 11)",
+        "year": 2023
+      },
+      {
+        "title": "WITH HIGHEST HONORS (GRADE 12)",
+        "year": 2024
+      },
+      {
+        "title": "GOLD MEDALLION SCHOLARSHIP AWARDEE",
+        "year": 2024
+      },
+      {
+        "title": "FLORENTINO CAYCO MEMORIAL SCHOLARSHIP",
+        "year": 2024
+      }
+    ],
+    "courses": [],
+    "activities": [
+      "VICE CHAIRPERSON OF GRADE 12 - CLUSTER 6 COMMITTEE"
+    ],
+    "projects": [],
+    "id": "9471f370-351c-4fbe-ae77-5f0d0edc60a8",
+    "order": 4,
+    "logo": "/uploads/education/1785668016463-baebc968.webp"
+  }
+]

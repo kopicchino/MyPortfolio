@@ -1,0 +1,57 @@
+{
+  "siteTitle": "Jefferson Padua | Portfolio",
+  "siteDescription": "Welcome to my digital portfolio! I am an aspiring Information Technology professional, technology enthusiast, and emerging leader passionate about building innovative solutions that create meaningful impact. This website showcases my journey, including my academic achievements, technical projects, leadership experiences, certifications, skills, and community involvement. Explore my work, discover my growth, and join me as I continue learning, innovating, and contributing to the future of technology.",
+  "siteUrl": "https://yourwebsite.com",
+  "favicon": "/favicon.ico",
+  "ogImage": "/og-image.jpg",
+  "theme": {
+    "primaryColor": "#6366f1",
+    "accentColor": "#8b5cf6",
+    "defaultMode": "dark"
+  },
+  "nav": {
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "About",
+        "href": "/about"
+      },
+      {
+        "label": "Projects",
+        "href": "/projects"
+      },
+      {
+        "label": "Skills",
+        "href": "/skills"
+      },
+      {
+        "label": "Education",
+        "href": "/education"
+      },
+      {
+        "label": "Certifications",
+        "href": "/certifications"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ],
+    "logo": "Jefferson Padua"
+  },
+  "contact": {
+    "formEndpoint": "",
+    "showPhone": false,
+    "showEmail": true,
+    "showMap": true
+  },
+  "analytics": {
+    "googleAnalyticsId": "",
+    "plausibleDomain": ""
+  },
+  "maintenance": false,
+  "updatedAt": "2026-08-02T14:14:26.271Z"
+}

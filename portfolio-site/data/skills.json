@@ -1,0 +1,200 @@
+{
+  "categories": [
+    {
+      "id": "frontend",
+      "name": "Frontend Development",
+      "icon": "Monitor",
+      "skills": [
+        {
+          "id": "html",
+          "name": "HTML5",
+          "icon": "html5",
+          "level": 85,
+          "years": 3
+        },
+        {
+          "id": "css",
+          "name": "CSS3",
+          "icon": "css3",
+          "level": 80,
+          "years": 3
+        },
+        {
+          "id": "javascript",
+          "name": "JavaScript",
+          "icon": "javascript",
+          "level": 75,
+          "years": 2
+        },
+        {
+          "id": "react",
+          "name": "React",
+          "icon": "react",
+          "level": 65,
+          "years": 1
+        },
+        {
+          "id": "typescript",
+          "name": "TypeScript",
+          "icon": "typescript",
+          "level": 55,
+          "years": 1
+        },
+        {
+          "id": "tailwind",
+          "name": "Tailwind CSS",
+          "icon": "tailwind",
+          "level": 70,
+          "years": 1
+        }
+      ]
+    },
+    {
+      "id": "backend",
+      "name": "Backend & Server",
+      "icon": "Server",
+      "skills": [
+        {
+          "id": "php",
+          "name": "PHP",
+          "icon": "php",
+          "level": 30,
+          "years": 2
+        },
+        {
+          "id": "nodejs",
+          "name": "Node.js",
+          "icon": "nodejs",
+          "level": 65,
+          "years": 3
+        },
+        {
+          "id": "nextjs",
+          "name": "Next.js",
+          "icon": "nextjs",
+          "level": 45,
+          "years": 1
+        },
+        {
+          "id": "python",
+          "name": "Python",
+          "icon": "python",
+          "level": 60,
+          "years": 3
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "name": "Database",
+      "icon": "Database",
+      "skills": [
+        {
+          "id": "mysql",
+          "name": "MySQL",
+          "icon": "mysql",
+          "level": 85,
+          "years": 2
+        },
+        {
+          "id": "sqlite",
+          "name": "SQLite",
+          "icon": "sqlite",
+          "level": 80,
+          "years": 3
+        },
+        {
+          "id": "mongodb",
+          "name": "Firebase Firestore",
+          "icon": "mongodb",
+          "level": 80,
+          "years": 3
+        },
+        {
+          "id": "skill-998f02",
+          "name": "Supabase",
+          "icon": "",
+          "level": 50,
+          "years": 1
+        },
+        {
+          "id": "skill-70a0d3",
+          "name": "PostgreSQL",
+          "icon": "",
+          "level": 70,
+          "years": 2
+        },
+        {
+          "id": "skill-037b0b",
+          "name": "Cloudinary",
+          "icon": "",
+          "level": 90,
+          "years": 2
+        }
+      ]
+    },
+    {
+      "id": "tools",
+      "name": "Tools & Workflow",
+      "icon": "Wrench",
+      "skills": [
+        {
+          "id": "git",
+          "name": "Git & GitHub",
+          "icon": "git",
+          "level": 90,
+          "years": 4
+        },
+        {
+          "id": "vscode",
+          "name": "VS Code",
+          "icon": "vscode",
+          "level": 90,
+          "years": 3
+        },
+        {
+          "id": "figma",
+          "name": "Figma",
+          "icon": "figma",
+          "level": 90,
+          "years": 4
+        },
+        {
+          "id": "postman",
+          "name": "Antigravity",
+          "icon": "postman",
+          "level": 95,
+          "years": 3
+        },
+        {
+          "id": "skill-953011",
+          "name": "Codeblocks",
+          "icon": "",
+          "level": 70,
+          "years": 3
+        },
+        {
+          "id": "skill-bb6d91",
+          "name": "Windows Command Prompt",
+          "icon": "",
+          "level": 90,
+          "years": 4
+        },
+        {
+          "id": "skill-378951",
+          "name": "PowerShell",
+          "icon": "",
+          "level": 90,
+          "years": 4
+        },
+        {
+          "id": "skill-1b8ff3",
+          "name": "Linux Terminal",
+          "icon": "",
+          "level": 80,
+          "years": 2
+        }
+      ]
+    }
+  ]
+}
