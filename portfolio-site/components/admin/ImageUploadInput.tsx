@@ -10,6 +10,7 @@ import { useState, useRef } from "react";
 import Image from "next/image";
 import { Upload, X, Image as ImageIcon } from "lucide-react";
 import { toast } from "react-hot-toast";
+import { isImageFile } from "@/lib/utils";
 
 interface ImageUploadInputProps {
   label: string;
@@ -17,6 +18,7 @@ interface ImageUploadInputProps {
   onChange: (url: string) => void;
   folder?: string;
   placeholder?: string;
+  accept?: string;
 }
 
 export function ImageUploadInput({
@@ -24,7 +26,8 @@ export function ImageUploadInput({
   value,
   onChange,
   folder = "general",
-  placeholder = "/uploads/...",
+  placeholder = "/uploads...",
+  accept = "image/*",
 }: ImageUploadInputProps) {
   const [uploading, setUploading] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -76,7 +79,7 @@ export function ImageUploadInput({
         <input
           ref={fileInputRef}
           type="file"
-          accept="image/*"
+          accept={accept}
           className="hidden"
           onChange={handleFileChange}
         />
@@ -112,7 +115,7 @@ export function ImageUploadInput({
       {value && (
         <div className="mt-2 flex items-center gap-3 p-2 rounded-xl bg-[var(--bg-tertiary)] border border-[var(--border-color)] w-fit max-w-full">
           <div className="h-12 w-12 rounded-lg bg-[var(--bg-card)] overflow-hidden relative border border-[var(--border-color)] shrink-0 flex items-center justify-center">
-            {value.startsWith("/") || value.startsWith("http") ? (
+            {value && (value.startsWith("/") || value.startsWith("http")) && isImageFile(value) ? (
               <Image
                 src={value}
                 alt="Preview"
