@@ -111,7 +111,7 @@ export default function AdminProfilePage() {
               value={watch("resume") || ""}
               onChange={(url) => setValue("resume", url)}
               folder="resume"
-              accept="image/*,application/pdf"
+              accept="image/*,.pdf,application/pdf"
               placeholder="/uploads/resume/resume.pdf"
             />
           </div>

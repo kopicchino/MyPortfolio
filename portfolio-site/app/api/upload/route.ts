@@ -11,8 +11,15 @@ import fs from "fs";
 import { v4 as uuidv4 } from "uuid";
 
 const UPLOAD_BASE = path.join(process.cwd(), "public", "uploads");
-const MAX_SIZE_MB = 10;
-const ALLOWED_TYPES = ["image/jpeg", "image/png", "image/webp", "image/gif", "application/pdf"];
+const MAX_SIZE_MB = 20;
+const ALLOWED_TYPES = [
+  "image/jpeg",
+  "image/png",
+  "image/webp",
+  "image/gif",
+  "application/pdf",
+  "application/x-pdf",
+];
 
 async function authorize() {
   const session = await getAdminSession();
@@ -31,13 +38,18 @@ export async function POST(req: Request) {
 
     if (!file) return NextResponse.json({ error: "No file provided" }, { status: 400 });
     if (file.size > MAX_SIZE_MB * 1024 * 1024) return NextResponse.json({ error: `File too large (max ${MAX_SIZE_MB}MB)` }, { status: 400 });
-    if (!ALLOWED_TYPES.includes(file.type)) return NextResponse.json({ error: "Invalid file type" }, { status: 400 });
+
+    const fileType = file.type || "";
+    const fileName = file.name || "file";
+    const fileExt = path.extname(fileName).toLowerCase();
+    const isPdf = fileExt === ".pdf" || fileType === "application/pdf" || fileType === "application/x-pdf";
+    const isAllowed = isPdf || ALLOWED_TYPES.includes(fileType);
+    if (!isAllowed) return NextResponse.json({ error: "Invalid file type" }, { status: 400 });
 
     const uploadDir = path.join(UPLOAD_BASE, folder);
     fs.mkdirSync(uploadDir, { recursive: true });
 
     const buffer = Buffer.from(await file.arrayBuffer());
-    const isPdf = file.type === "application/pdf";
     const ext = isPdf ? "pdf" : "webp";
     const filename = `${Date.now()}-${uuidv4().slice(0, 8)}.${ext}`;
     const filepath = path.join(uploadDir, filename);
